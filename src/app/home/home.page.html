@@ -1,37 +1,43 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title> Meu App dos sonho </ion-title>
+  <ion-title>Meu Aplicativo</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+ <h1>Calculadora</h1>
+  <p>Coloque seus numeros</p>
+<br>
+  <ion-input [(ngModel)] = "valor1"></ion-input>
+  <ion-input [(ngModel)] = "operacao"></ion-input>
+  <ion-input [(ngModel)] = "valor2"></ion-input>
+<br>
+    <ion-button size = "Block" (click)="primeiroNumero(1)">1</ion-button>
+    <ion-button size = "Block" (click)="primeiroNumero(2)">2</ion-button>
+    <ion-button size = "Block" (click)="primeiroNumero(3)">3</ion-button>
+  <br>
+    <ion-button size = "Block" (click)="primeiroNumero(4)">4</ion-button>
+    <ion-button size = "Block" (click)="primeiroNumero(5)">5</ion-button>
+    <ion-button size = "Block" (click)="primeiroNumero(6)">6</ion-button>
+  <br>
+  <ion-button size = "Block" (click)="primeiroNumero(7)">7</ion-button>
+  <ion-button size = "Block" (click)="primeiroNumero(8)">8</ion-button>
+  <ion-button size = "Block" (click)="primeiroNumero(9)">9</ion-button>
 
 
-    </ion-toolbar>
-  </ion-header>
+  <br>
+  <ion-button size = "Block" (click)="operacoes(2)">-</ion-button>
+  <ion-button size = "Large" (click)="operacoes(1)">+</ion-button>
+    <ion-button size = "large" (click)="somar()">=</ion-button>
 
 
 
-  <ion-content>
-  <h1>
-      <b>Introdução ao {{ nome }}</b>
-
-
-    </h1>
-      <p>
-        Este trabalho tem como objetivo realizar uma  síntese sobre os dois
-        primeiros capítulos do livro “Filosofia e Ciência”
-        do autor Rubem Alves, mostrando os temas que foram
-        abordados e o posicionamento do autor sobre eles.
-
-        </p>
-
-
-        <ion-img src ="https://cdn.pensador.com/img/authors/ru/be/rubem-alves-l.jpg" alt="Rubem Alves" >
-          </ion-img>
-          <ion-button>
-            Veja mais sobre ele!
-            </ion-button>
-    </ion-content>
 
 
 
-    <ion-footer>
 
-      </ion-footer>
+</ion-content>
+<ion-footer>
+
+
+
+</ion-footer>

@@ -6,9 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  nome : string = "IONIC";
-clicar() : void {
-  alert("MENTIRA KKKK");
-}
+  a : number = 0;
+  b : number = 0;
+  c : number = 0;
+  primeiroNumero(x):double{
+    alert(x);
+    a = x;
+
+  }
+
+
+    somar():void{
+      
 
 }
