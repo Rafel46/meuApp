@@ -1,43 +1,22 @@
 <ion-header>
   <ion-toolbar>
-  <ion-title>Meu Aplicativo</ion-title>
+    <ion-title>
+      Treininho pra prova 
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
- <h1>Calculadora</h1>
-  <p>Coloque seus numeros</p>
-<br>
-  <ion-input [(ngModel)] = "valor1"></ion-input>
-  <ion-input [(ngModel)] = "operacao"></ion-input>
-  <ion-input [(ngModel)] = "valor2"></ion-input>
-<br>
-    <ion-button size = "Block" (click)="primeiroNumero(1)">1</ion-button>
-    <ion-button size = "Block" (click)="primeiroNumero(2)">2</ion-button>
-    <ion-button size = "Block" (click)="primeiroNumero(3)">3</ion-button>
-  <br>
-    <ion-button size = "Block" (click)="primeiroNumero(4)">4</ion-button>
-    <ion-button size = "Block" (click)="primeiroNumero(5)">5</ion-button>
-    <ion-button size = "Block" (click)="primeiroNumero(6)">6</ion-button>
-  <br>
-  <ion-button size = "Block" (click)="primeiroNumero(7)">7</ion-button>
-  <ion-button size = "Block" (click)="primeiroNumero(8)">8</ion-button>
-  <ion-button size = "Block" (click)="primeiroNumero(9)">9</ion-button>
-
-
-  <br>
-  <ion-button size = "Block" (click)="operacoes(2)">-</ion-button>
-  <ion-button size = "Large" (click)="operacoes(1)">+</ion-button>
-    <ion-button size = "large" (click)="somar()">=</ion-button>
-
-
-
-
-
-
-
+  <h1>O baguio é doido memo</h1>
+    <p>Aproveita que já ta aqui e coloca uns number my brother</p>
+    <ion-input [(ngModel)] = "var1" type ="text">O primeiro aqui-></ion-input>
+    <br>
+    <ion-input [(ngModel)] = "var2">O segundo aqui-></ion-input>
+    <br>
+    <ion-button size = "large" (click) = "acharPar()">vamo ver se a soma é par?</ion-button>
+    <br>
+    <ion-button size = "large" (click) = "multiplicar()">vamo achar a multiplicação disso ae?</ion-button>
 </ion-content>
+
 <ion-footer>
-
-
 
 </ion-footer>

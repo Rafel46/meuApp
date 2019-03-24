@@ -6,17 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  a : number = 0;
-  b : number = 0;
-  c : number = 0;
-  primeiroNumero(x):double{
-    alert(x);
-    a = x;
+ var1 : Number = 0;
+ var2 : Number = 0;
+ acharPar():void{
+   let a = Number(this.var1)+Number(this.var2);
+   if (a % 2 == 0){
+     alert("O numero "+a+" é par");
+   }
+   else{
+     alert("O numero "+a+" é impar");
+   }
+ }
+  multiplicar():void{
+   let num1 = Number(this.var1);
+   let num2 = Number(this.var2);
+   let mina = num1*num2;
 
-  }
-
-
-    somar():void{
-      
+   alert("O mmc desses numeros é "+minm);
+ }
 
 }
