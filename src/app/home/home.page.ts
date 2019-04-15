@@ -6,17 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
- var1;
- var2;
- somavar;
- main(x , y):void{
- alert(numero1( ));
-
-
-
-   }
-   numero1(x):void{
-
-}
 
  }
